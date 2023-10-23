@@ -37,6 +37,10 @@ dependencies {
 
 	// slack api
 	implementation("com.slack.api:slack-api-client:1.30.0")
+
+	// mockk
+	testImplementation("io.mockk:mockk:1.13.5")
+
 }
 
 tasks.withType<KotlinCompile> {
@@ -50,6 +54,7 @@ tasks.withType<Test> {
 	useJUnitPlatform()
 }
 
+// ktlint
 buildscript {
 	repositories {
 		maven(url = "https://plugins.gradle.org/m2/")

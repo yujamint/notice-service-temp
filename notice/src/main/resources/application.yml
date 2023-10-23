@@ -1,0 +1,23 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        format_sql: true
+        show_sql: true
+        highlight_sql: true
+    defer-datasource-initialization: true
+
+logging:
+  level:
+    org.hibernate.type: trace
+    org.hibernate.sql: debug
+
+slack:
+  bot:
+    token: 토큰
+  user:
+    token: 토큰
+  channel:
+    id: 슬랙 채널 ID

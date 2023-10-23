@@ -1,0 +1,17 @@
+INSERT INTO channel(channel_name, channel_id)
+VALUES ('5기-공지사항', 'C04KDGGRNQ1');
+
+INSERT INTO channel(channel_name, channel_id)
+VALUES ('be-5기-공지', 'C04KQKQ892L');
+
+INSERT INTO channel(channel_name, channel_id)
+VALUES ('fe-5기-공지', 'C04JLCRFNUX');
+
+INSERT INTO channel(channel_name, channel_id)
+VALUES ('android-5기-공지', 'C04JY0TAFRT');
+
+INSERT INTO channel(channel_name, channel_id)
+VALUES ('5기-캠퍼스-잠실', 'C05E50FLNBG');
+
+INSERT INTO channel(channel_name, channel_id)
+VALUES ('5기-캠퍼스-선릉', 'C04N559C3CP');
